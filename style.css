@@ -1,13 +1,26 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
     font-family: 'Poppins', sans-serif;
     color: rgb(15, 12, 39);
+    height: 100%;
+}
+footer{
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .banner,section{
     padding: 150px 200px 0;
 
 }
+.appSection{
+    padding-top: 0;
+}
 h1{
-    font-size: 70px;
+    font-size: 60px;
     line-height: 80px;
 }
 h3{
@@ -15,7 +28,7 @@ h3{
     line-height: 80px;
 }
 h2{
-    font-weight: 400;
+    font-weight: 100;
 }
 .noDecoration{
     text-decoration: none;
@@ -27,18 +40,31 @@ h2{
     padding: 15px 50px;
 
 }
+.button2{
+    background-color: #3f7ee8;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 50px;
+
+}
+
 .mt-50{
     margin-top: 50px;
+}
+.mt-30{
+    margin-top: 30px;
 }
 .mb-50{
     margin-bottom:50px ;
 }
 .recolor{
     color: rgb(255, 150, 0);
+    font-family: 'Roboto Mono', monospace;
 }
 .cardImage{
     width: 30%;
 }
+
 
 .title{
 
@@ -58,6 +84,11 @@ h2{
 
     
 
+}
+.sec2title{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 800;
 }
 .p-0{
     padding: 0;
@@ -89,4 +120,46 @@ h2{
 }
 .bgColor3{
     background-color: rgb(231, 205, 255);
+}
+.bgColor4{
+    background-color: rgb(0, 0, 0);
+}
+
+.codingDiv{
+    background-image: url("images/ring.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-y: 30%;
+}
+#app{
+    width: 60%;
+}
+.appDiv{
+    background-image: url("images/square.png"), url("images/square.png"),url("images/square.png");
+    background-position: left top, right bottom, left bottom;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: 30%, 10%, 15%;
+    background-position-x:15%,22%,75% ;
+    background-position-y:20%,95%,75%;
+    padding-top: 150px;
+   
+}
+
+
+.discussDiv{
+    background-image: url("images/ring.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+    background-position-y: 90%;
+    padding-bottom: 100px;
+}
+
+.vCenter{
+    align-items: center;
+}
+.doctime{
+    color: #3f7ee8;
+
 }
