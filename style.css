@@ -1,0 +1,92 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(15, 12, 39);
+}
+.banner,section{
+    padding: 150px 200px 0;
+
+}
+h1{
+    font-size: 70px;
+    line-height: 80px;
+}
+h3{
+    font-size: 40px;
+    line-height: 80px;
+}
+h2{
+    font-weight: 400;
+}
+.noDecoration{
+    text-decoration: none;
+}
+.button{
+    background-color: rgb(255, 150, 0);
+    color: black;
+    border-radius: 10px;
+    padding: 15px 50px;
+
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mb-50{
+    margin-bottom:50px ;
+}
+.recolor{
+    color: rgb(255, 150, 0);
+}
+.cardImage{
+    width: 30%;
+}
+
+.title{
+
+
+    margin: 0;
+    background-color: white;
+
+    padding-left: 10px;
+    padding-top: 0;
+    border-left:10px solid;
+    border-image: linear-gradient(rgb(255, 188, 143),rgb(255, 177, 113))45;
+    border-image-slice:1;
+ 
+    margin-top: 0;
+    line-height: 100px;
+    border-radius: 10px;
+
+    
+
+}
+.p-0{
+    padding: 0;
+    margin: 0;
+}
+
+
+.flexbox{
+    display: flex;
+}
+.w50{
+    width: 50%;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+}
+
+.card{
+    padding: 40px;
+    margin:30px;
+    border-radius: 10px;
+}
+.bgColor1{
+    background-color: rgb(200, 253, 236);
+}
+.bgColor2{
+    background-color: bisque;
+}
+.bgColor3{
+    background-color: rgb(231, 205, 255);
+}
